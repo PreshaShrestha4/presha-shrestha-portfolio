@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Presha Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
   </head>
   <body>
     <header class="header">
@@ -12,32 +14,219 @@
         <div class="logo">Presha.</div>
 
         <ul class="nav-links" id="navLinks">
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+
           <!-- <li><a href="#" class="resume-btn">Resume</a></li> -->
         </ul>
 
         <div class="menu-toggle" id="menuToggle">☰</div>
       </nav>
     </header>
+    <section class="hero" id="home">
+      <div class="hero-container">
+        <div class="hero-text">
+          <h1>Hello, I'm <span>Presha Shrestha</span></h1>
+          <h2>Frontend Developer | React Learner</h2>
+          <p>
+            I build clean and responsive websites using HTML, CSS and
+            JavaScript. Currently improving my React skills and building
+            real-world projects.
+          </p>
 
-    <main class="main-content">
-      <h1>Welcome to My Portfolio</h1>
-    </main>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn primary-btn">View Projects</a>
+            <a href="#contact" class="btn secondary-btn">Contact Me</a>
+          </div>
+        </div>
 
-    <footer class="footer">
-      <div class="footer-container">
-        <p>© 2026 Presha Shrestha. All rights reserved.</p>
-
-        <div class="social-links">
-          <a href="#">GitHub</a>
-          <a href="#">LinkedIn</a>
-          <a href="#">Email</a>
+        <div class="hero-image">
+          <img src="images/presha img.jpeg" alt="Presha Shrestha" />
         </div>
       </div>
-    </footer>
+      <section class="about" id="about">
+        <div class="about-container">
+          <div class="about-card">
+            <h1>👩‍💻 Who I Am</h1>
+            <p>
+              <span class="highlight">Frontend Developer</span> passionate about
+              crafting clean, responsive and intuitive web experiences. I work
+              with HTML, CSS and JavaScript and I am currently strengthening my
+              skills in React to develop modern and scalable interfaces. I enjoy
+              transforming ideas into functional digital experiences and
+              continuously improving my knowledge through hands-on projects and
+              real-world problem solving.
+            </p>
+          </div>
+        </div>
+      </section>
+    <section class="skills" id="skills">
+      <div class="skills-container">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-grid">
+          <div class="tech-box html">
+            <i class="devicon-html5-plain"></i>
+            HTML5
+          </div>
+
+          <div class="tech-box css">
+            <i class="devicon-css3-plain"></i>
+            CSS3
+          </div>
+
+          <div class="tech-box js">
+            <i class="devicon-javascript-plain"></i>
+            JavaScript
+          </div>
+
+          <div class="tech-box react">
+            <i class="devicon-react-original"></i>
+            React
+          </div>
+
+          <div class="tech-box git">
+            <i class="devicon-git-plain"></i>
+            Git
+          </div>
+
+          <div class="tech-box github">
+            <i class="devicon-github-original"></i>
+            GitHub
+          </div>
+
+          <div class="tech-box responsive">
+            📱 Responsive Design
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <section class="projects" id="projects">
+      <div class="projects-container">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="projects-grid">
+
+          <!-- Project 1 -->
+          <div class="project-card">
+            <h3>Personal Portfolio Website</h3>
+            <p>
+              A responsive personal portfolio website showcasing my skills,
+              projects, and contact information with smooth navigation.
+            </p>
+
+            <div class="tech-stack">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+
+            <div class="project-links">
+              <a href="#" target="_blank" class="btn small-btn">GitHub</a>
+              <a href="#" target="_blank" class="btn small-btn outline">Live Demo</a>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <h3>Password Generator</h3>
+            <p>
+              A React-based password generator that creates secure passwords
+              with customizable length and character options.
+            </p>
+
+            <div class="tech-stack">
+              <span>React</span>
+              <span>JavaScript</span>
+              <span>CSS</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/PreshaShrestha4" target="_blank" class="btn small-btn">GitHub</a>
+              <a href="#" target="_blank" class="btn small-btn outline">Live Demo</a>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <h3>Weather App</h3>
+            <p>
+              A simple weather application that fetches real-time weather data
+              using API integration and displays it dynamically.
+            </p>
+
+            <div class="tech-stack">
+              <span>JavaScript</span>
+              <span>API</span>
+              <span>CSS</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/PreshaShrestha4" target="_blank" class="btn small-btn">GitHub</a>
+              <a href="#" target="_blank" class="btn small-btn outline">Live Demo</a>
+            </div>
+          </div>
+
+        </div> 
+      </div>
+    </section>
+
+        <section class="contact" id="contact">
+          <div class="contact-container">
+            <h2 class="section-title">Let’s Connect</h2>
+
+            <div class="contact-wrapper">
+              
+              <!-- Contact Form -->
+              <form class="contact-form">
+                <div class="input-group">
+                  <input type="text" placeholder="Your Name" required>
+                </div>
+
+                <div class="input-group">
+                  <input type="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="input-group">
+                  <textarea rows="5" placeholder="Your Message" required></textarea>
+                </div>
+
+                <button type="submit" class="contact-btn">Send Message</button>
+              </form>
+
+              <!-- Social Links -->
+              <div class="contact-info">
+                <h3>Find Me Online</h3>
+                <p>I’m open to collaboration and opportunities.</p>
+
+                <div class="social-icons">
+                  <a href="https://github.com/PreshaShrestha4" target="_blank">GitHub</a>
+                  <a href="https://www.linkedin.com/in/presha-shrestha-286363307/" target="_blank">LinkedIn</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+
+
+  <footer class="footer">
+  <div class="footer-container">
+    <p>© 2026 Presha Shrestha. All rights reserved.</p>
+
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</footer>
+
 
     <script src="script.js"></script>
   </body>
