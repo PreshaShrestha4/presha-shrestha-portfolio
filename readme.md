@@ -24,19 +24,6 @@ This project showcases my skills, projects, and contact information while demons
 
 ---
 
-## 📂 Project Structure
-
-/portfolio
-│
-├─ index.html # Main HTML file
-├─ style.css # Custom styles
-├─ script.js # JavaScript interactivity
-└─ assets/ # Images, icons, resume PDF, etc.
-
----
-
----
-
 ## 🚀 Live Demo
 
 View the live portfolio here: [Live Demo](https://preshashrestha4.github.io/presha-shrestha-portfolio/)
@@ -52,7 +39,9 @@ View the live portfolio here: [Live Demo](https://preshashrestha4.github.io/pres
 
 2. Navigate into the project folder:
 
+```bash
 cd presha-shrestha-portfolio
+```
 
 📈 Future Improvements
 
