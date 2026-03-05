@@ -2,11 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Segoe UI", Arial, sans-serif;
 }
 
 body {
-  background: linear-gradient(135deg, #eef2ff, #f8fbff);
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
+  background: #f8fbff;
   color: #333;
 }
 
@@ -239,7 +240,7 @@ body {
 }
 
 .skills {
-  padding: 40px 20px;
+  padding: 50px 20px;
   background: #dcf0f0;
   text-align: center;
 }
